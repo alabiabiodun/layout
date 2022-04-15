@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    height: 70em;
+    
+}
+
+.navbar{    
+    justify-content: space-between;
+    border: 1px solid #c7bfbf;
+    background-color: #53a053;
+    height: 3em;
+    align-items: center;
+    border-radius: 3px;
+         
+}
+
+
+.navbar ul li{
+    display: inline;
+    padding: 1em 0.5em;
+    font-size: 1em;
+    text-align: left;    
+    cursor: pointer;
+    
+}
+
+.navbar .nav-item .nav-link{
+    text-decoration: none;
+    color: white;     
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 0.8em;
+}
+
+.navbar-toggler:focus{
+    text-decoration: none;
+    outline: 0;    
+    box-shadow: 0 0 0 0.18rem;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+   justify-content: space-between;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #c7bfbf;
+    background: rgb(207, 33, 36);
+    justify-content: center;
+    align-items: center;
+    height: 23em;
+    border-radius: 3px;
+
+}
+
+.section span{
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 20px;  
+    background: blue;
+    border-radius: 5px; 
+    border: 1px solid #c7bfbf;
+    padding: 15px 15px;
+    max-width: 100%;    
+}
+
+.image{
+    cursor: pointer;
+    /*display:inline-block;*/
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    /*border:1px solid black;*/
+    border-style: none;   
+}
+
+img{
+    border-radius: 5px;
+    width: 200px; 
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s; 
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom: 0;
+    height: 2em;
+    background: rgb(235, 134, 52);;
+    border: 1px solid #c7bfbf;
+    font-size: 1.3em;
+    color: white;
+}
+
+
